@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .register{
+            height: 300px;
+            width:200px;
+            /* display: block; */
+            margin-left: 550px;
+        }
+        .register>input{
+            padding:30px;
+            /* display: block; */
+           
+            
+        }
+        .log-in{
+            height: 250px;
+            width:200px;
+            margin-left: 550px;
+        }
+        .log-in>input{
+            padding:20px;
+        }
+        h1{
+            text-align: center;
+            color: rgb(238, 28, 28);
+            border: none;
+        }
+        button{
+            margin-left: 50px;
+            color: black;
+            background-color: blanchedalmond;
+            border: none;
+            cursor: pointer;
+        }
+        #container{
+            height: 600px;
+            width: 1350px;
+          background-image: url("https://media.istockphoto.com/photos/empty-restaurant-interior-picture-id1290237592?b=1&k=20&m=1290237592&s=170667a&w=0&h=fgXWrrQ7qWpbiO8O_dpEVlS4JsTZYH8e3FoZ4UeoQH8=");
+        }
+    </style>
+   
+</head>
+<body>
+    <div id="container">
+    <div class="register">
+    <h1> Restarunt app </h1>
+    <h1>Register</h1>
+    
+    <form action="" onsubmit="Register(event)">
+        <input type="text" id="name" placeholder="Name"/>
+        <input type="email" id="email" placeholder="Email"/>
+        <input type="password" id="password" placeholder="password"/>
+        <input type="text" id="username" placeholder="userName"/>
+        <input type="number" id="mobile" placeholder="mobile"/>
+        <input type="text" id="description" placeholder="description"/>
+        <button>Register</button>
+    </form>
+    
+   </div>
+
+    <div class="log-in">
+        <h1>Login</h1>
+        <form action="" onsubmit="login(event)">
+            <input type="text" id="username-1" placeholder="Username"/>
+            <input type="password" id="password-1" placeholder="Password"/>
+            <button>Log-in</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
+<script src="main.js"></script>
+

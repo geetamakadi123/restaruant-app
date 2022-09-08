@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "geeta"
+    },
+    {
+      "id": 2,
+      "name": "geetu"
+    }
+  ],
+  "items": [
+    {
+      "image": "https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659652__340.png",
+      "title": "biryani",
+      "price": "234",
+      "rating": "3",
+      "desc": "biryani is spicy",
+      "id": 1
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "bread",
+      "price": "5839",
+      "rating": "4",
+      "desc": "bread u can eat in moring ",
+      "id": 2
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "lemon juce",
+      "price": "843",
+      "rating": "2",
+      "desc": "u can drink leamon juce",
+      "id": 3
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "pestige",
+      "price": "899",
+      "rating": "4",
+      "desc": "pestige is most like dish",
+      "id": 4
+    }
+  ]
+}
