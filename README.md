@@ -9,3 +9,6 @@
 # Tools
 * VS Code
 * Github
+
+# **🔗 Deployed Link**
+_This project is deployed on netlify here - [Restauraunt app website clone](https://restaruant-app-website.netlify.app)_
